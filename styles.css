@@ -3,27 +3,33 @@ body {
     font-family: 'Outfit', sans-serif;
     text-align: center;
 }
-main 
+main {
+    margin: 0 auto;
+    width:320px;
+    background-color: white;
+    padding:10px 10px 35px 10px;
+    border-radius:10px;  
+}
 h1 {
     font-size:20px;
     font-weight:700;
     color:hsl(218, 44%, 22%);
-    /*background-color: white;
-    width:330px;
-    margin: 5px auto;*/
+    /*background-color: white;*/
+    width:250px;
+    margin: 15px auto;
 }
 p {
     font-weight:400;
     font-size:15px;
     color:hsl(220, 15%, 55%);
-    /*background-color: white;
-    width:330px;
-    margin: 5px auto;*/
+    /*background-color: white;*/
+    width:260px;
+    margin: 15px auto;
 }
 img {
     width:300px;
     /*border: 15px solid white;*/
-    padding:20px;
-    border-radius:10px;
-    
+    /*padding:20px;*/
+    border-radius:10px; 
+    margin:10px;  
 }
